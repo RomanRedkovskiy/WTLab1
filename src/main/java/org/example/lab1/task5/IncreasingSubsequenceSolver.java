@@ -2,7 +2,7 @@ package org.example.lab1.task5;
 
 import java.util.Arrays;
 
-public class IncreasingSubsequenceCreator {
+public class IncreasingSubsequenceSolver {
 
     public int getIncreasingSubsequence(int[] inputSequence) {
         int[] sequence = new int[inputSequence.length];
