@@ -1,9 +1,8 @@
-package lab1.task4;
+package org.example.lab1.task4;
 
-import org.example.lab1.task4.PrimeChecker;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class PrimeCheckerTest {
 

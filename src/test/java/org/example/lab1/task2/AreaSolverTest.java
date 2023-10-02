@@ -1,4 +1,4 @@
-package lab1.task2;
+package org.example.lab1.task2;
 
 import org.example.lab1.task2.modelSolvers.RectanglesAreaSolver;
 import org.junit.jupiter.api.Test;

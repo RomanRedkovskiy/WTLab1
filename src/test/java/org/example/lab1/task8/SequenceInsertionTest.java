@@ -1,6 +1,5 @@
-package lab1.task8;
+package org.example.lab1.task8;
 
-import org.example.lab1.task8.SequenceInsertion;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -9,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SequenceInsertionTest {
 

@@ -1,9 +1,8 @@
-package lab1.task6;
+package org.example.lab1.task6;
 
-import org.example.lab1.task6.MatrixFromArray;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class MatrixFromArrayTest {
 

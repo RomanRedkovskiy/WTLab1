@@ -1,6 +1,5 @@
-package lab1.task1;
+package org.example.lab1.task1;
 
-import org.example.lab1.task1.EquationSolver;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

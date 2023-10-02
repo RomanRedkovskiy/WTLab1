@@ -1,9 +1,8 @@
-package lab1.task5;
+package org.example.lab1.task5;
 
-import org.example.lab1.task5.IncreasingSubsequenceSolver;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class IncreasingSubsequenceSolverTest {
 

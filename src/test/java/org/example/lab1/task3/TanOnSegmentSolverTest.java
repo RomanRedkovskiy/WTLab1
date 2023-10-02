@@ -1,9 +1,9 @@
-package lab1.task3;
+package org.example.lab1.task3;
 
-import org.example.lab1.task3.Segment;
-import org.example.lab1.task3.TanOnSegmentSolver;
 import org.junit.jupiter.api.Test;
+
 import java.util.Map;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TanOnSegmentSolverTest {
