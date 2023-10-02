@@ -1,4 +1,4 @@
-package org.example.lab1.task9;
+package org.example.lab1.task9_11.task9;
 
 import java.util.HashSet;
 import java.util.Set;

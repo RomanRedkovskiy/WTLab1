@@ -1,8 +1,12 @@
-package org.example.lab1.task9;
+package org.example.lab1.task9_11;
 
 import java.util.HashSet;
 import java.util.Set;
 
+import org.example.lab1.task9_11.task9.Ball;
+import org.example.lab1.task9_11.task9.Bucket;
+import org.example.lab1.task9_11.task9.BucketOperations;
+import org.example.lab1.task9_11.task9.Color;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
