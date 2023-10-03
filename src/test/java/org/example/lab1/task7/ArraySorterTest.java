@@ -12,8 +12,8 @@ class ArraySorterTest {
     void sortArrayWhenEmptyArrayShouldReturnEmptyArray() {
         //given
         int[] arr = {};
-        int[] expected = {};
         //when
+        int[] expected = {};
         arraySorter.sortArray(arr);
         //then
         assertArrayEquals(expected, arr);
@@ -33,8 +33,8 @@ class ArraySorterTest {
     void sortArrayWhenUnsortedArrayShouldReturnSortedArray() {
         //given
         int[] arr = {23, 31, 10, 26, 5, 4, 1};
-        int[] expected = {1, 4, 5, 10, 23, 26, 31};
         //when
+        int[] expected = {1, 4, 5, 10, 23, 26, 31};
         arraySorter.sortArray(arr);
         //then
         assertArrayEquals(expected, arr);

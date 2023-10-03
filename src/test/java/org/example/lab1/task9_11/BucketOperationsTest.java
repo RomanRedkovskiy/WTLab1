@@ -16,9 +16,9 @@ class BucketOperationsTest {
     void calculateBallsWeightWhenEmptySetShouldReturnZero() {
         //given
         Bucket bucket = new Bucket(new HashSet<>());
-        int expected = 0;
         //when
         int actual = BucketOperations.calculateBallsWeight(bucket);
+        int expected = 0;
         //then
         assertEquals(expected, actual);
     }
@@ -27,9 +27,9 @@ class BucketOperationsTest {
     void calculateBlueBallsAmountWhenEmptySetShouldReturnZero() {
         //given
         Bucket bucket = new Bucket(new HashSet<>());
-        long expected = 0;
         //when
         long actual = BucketOperations.calculateBlueBallsAmount(bucket);
+        long expected = 0;
         //then
         assertEquals(expected, actual);
     }
@@ -46,9 +46,9 @@ class BucketOperationsTest {
                 thirdBall
         ));
         Bucket bucket = new Bucket(ballSet);
-        long expected = 0;
         //when
         long actual = BucketOperations.calculateBlueBallsAmount(bucket);
+        long expected = 0;
         //then
         assertEquals(expected, actual);
     }
@@ -65,9 +65,9 @@ class BucketOperationsTest {
                 thirdBall
         ));
         Bucket bucket = new Bucket(ballSet);
-        long expected = ballSet.size();
         //when
         long actual = BucketOperations.calculateBlueBallsAmount(bucket);
+        long expected = ballSet.size();
         //then
         assertEquals(expected, actual);
     }

@@ -13,8 +13,8 @@ class EquationSolverTest {
         //given
         double x = 0;
         double y = 0;
-        double expected = 0.5;
         //when
+        double expected = 0.5;
         double actual = calculator.calculate(x, y);
         //then
         assertEquals(expected, actual, DELTA);
@@ -25,8 +25,8 @@ class EquationSolverTest {
         //given
         double x = 10.0;
         double y = 23.0;
-        double expected = 10.166657;
         //when
+        double expected = 10.166657;
         double actual = calculator.calculate(x, y);
         //then
         assertEquals(expected, actual, DELTA);
@@ -37,8 +37,8 @@ class EquationSolverTest {
         //given
         double x = -7;
         double y = -3;
-        double expected = -6.855496;
         //when
+        double expected = -6.855496;
         double actual = calculator.calculate(x, y);
         //then
         assertEquals(expected, actual, DELTA);

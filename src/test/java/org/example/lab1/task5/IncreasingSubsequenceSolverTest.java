@@ -12,8 +12,8 @@ class IncreasingSubsequenceSolverTest {
     void getIncreasingSubsequenceWhenIncreasingSequenceShouldReturnZero() {
         //given
         int[] sequence = {10, 23, 26, 31};
-        int expected = 0;
         //when
+        int expected = 0;
         int actual = increasingSubsequenceSolver.getIncreasingSubsequence(sequence);
         //then
         assertEquals(expected, actual);
@@ -23,8 +23,8 @@ class IncreasingSubsequenceSolverTest {
     void getIncreasingSubsequenceWhenDecreasingSequenceShouldReturnSequenceSizeMinusOne() {
         //given
         int[] sequence = {100, 90, 89, 69, 31, 23, 10};
-        int expected = sequence.length - 1;
         //when
+        int expected = sequence.length - 1;
         int actual = increasingSubsequenceSolver.getIncreasingSubsequence(sequence);
         //then
         assertEquals(expected, actual);
@@ -34,8 +34,8 @@ class IncreasingSubsequenceSolverTest {
     void getIncreasingSubsequenceWhenNormalSequenceShouldReturnDeletedNumbersAmount() {
         //given
         int[] sequence = {2, 3, 10, 1, 12, 5, 7};
-        int expected = 3;
         //when
+        int expected = 3;
         int actual = increasingSubsequenceSolver.getIncreasingSubsequence(sequence);
         //then
         assertEquals(expected, actual);

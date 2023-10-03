@@ -12,8 +12,8 @@ class MatrixFromArrayTest {
     void createMatrixWhenEmptyArrayShouldReturnEmptyMatrix() {
         //given
         int[] arr = {};
-        int[][] expected = new int[][]{};
         //when
+        int[][] expected = new int[][]{};
         int[][] actual = matrixFromArray.createMatrix(arr);
         //then
         assertArrayEquals(expected, actual);
@@ -23,8 +23,8 @@ class MatrixFromArrayTest {
     void createMatrixWhenSingleElementArrayShouldReturnSingleElementMatrix() {
         //given
         int[] arr = {1};
-        int[][] expected = new int[][]{new int[]{1}};
         //when
+        int[][] expected = new int[][]{new int[]{1}};
         int[][] actual = matrixFromArray.createMatrix(arr);
         //then
         assertArrayEquals(expected, actual);
@@ -34,12 +34,12 @@ class MatrixFromArrayTest {
     void createMatrixWhenThreeElementArrayShouldReturnThreeOnThreeMatrix() {
         //given
         int[] arr = {10, 23, 31};
+        //when
         int[][] expected = new int[][]{
                 new int[]{10, 23, 31},
                 new int[]{23, 31, 10},
                 new int[]{31, 10, 23}
         };
-        //when
         int[][] actual = matrixFromArray.createMatrix(arr);
         //then
         assertArrayEquals(expected, actual);
